@@ -49,10 +49,9 @@ public class MinhNguyen {
 ### Zalo | Senior Software Engineer
 **2021 - Present**
 
-- ⚡ Optimized **Zalo core features** (group, profile, friend) on PC platform, achieving **5000 RQS**
-- 🏢 Designed and developed **Business Account** with peak request **2000 RQS**, serving million users
-- 💳 Built **zBox payment gateway** optimized for low latency, processing **2M+ transactions/day**
-- 🔗 Integrated external gateways: **ZaloPay, Napas, Momo**
+- ⚡ Optimized **Zalo core features** (group, profile, friend) on PC platform
+- 🏢 Designed and developed **Business Account** platform for millions of SMB users
+- 💳 Built **zBox payment gateway** with high throughput, integrated ZaloPay, Napas, Momo
 - 📊 Implemented centralized log monitoring system with automated alerts
 
 ### MGM Technology Partners | Intern
@@ -97,12 +96,26 @@ public class MinhNguyen {
 
 <div align="center">
 
-| Project | Description | Tech Stack | Metrics |
-|---------|-------------|------------|---------|
-| 📱 **Zalo Core Features** | Tối ưu hóa các tính năng core của Zalo | Java, Thrift, MySQL | ⚡ 5000 RQS |
-| 🏢 **Business Account** | Nền tảng quản lý tài khoản doanh nghiệp | Java, Kafka, MongoDB | ⚡ 2000 RQS, 1M+ Users |
-| 💳 **zBox Payment Gateway** | Cổng thanh toán tích hợp ZaloPay, Napas, Momo | Java, gRPC, Redis | 📊 2M+ txn/day |
-| 🎮 **Arcania** | Dự án game cá nhân - RPG fantasy | Java, Python | Personal Project |
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| 📱 **Zalo Core Features** | Tối ưu hóa các tính năng core của Zalo | Java, Kafka, Thrift, MySQL |
+| 🏢 **Business Account** | Nền tảng quản lý tài khoản doanh nghiệp | Java, Kafka, MongoDB |
+| 💳 **zBox Payment Gateway** | Cổng thanh toán tích hợp ZaloPay, Napas, Momo | Java, Kafka, gRPC, Redis |
+| 📚 **Arcania Studio** | Đem sử Việt ra thế giới qua truyện tranh | Next.js, Java, MongoDB |
+
+</div>
+
+---
+
+## 📚 Personal Project - Arcania Studio
+
+<div align="center">
+
+*Với lòng tự hào dân tộc và yêu mến văn hoá, lịch sử nước nhà. Arcania Studio muốn thông qua những dự án truyện tranh để đem sử Việt ra thế giới.*
+
+<a href="https://www.facebook.com/profile.php?id=61576227615421">
+  <img src="https://img.shields.io/badge/Follow_Arcania_Studio-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+</a>
 
 </div>
 
@@ -116,22 +129,6 @@ public class MinhNguyen {
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mickey530447&layout=compact&langs_count=8&theme=tokyonight"/>
 
 </div>
-
----
-
-## 📁 Personal Projects
-
-<div align="center">
-
-### 🔥 Featured Repository
-
-<a href="https://github.com/mickey530447/arcania">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey530447&repo=arcania&theme=tokyonight" alt="Arcania"/>
-</a>
-
-</div>
-
-> 💡 **Xem thêm:** [github.com/mickey530447?tab=repositories](https://github.com/mickey530447?tab=repositories)
 
 ---
 
