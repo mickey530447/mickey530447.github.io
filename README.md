@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Xin chào, tôi là Nguyễn Lê Minh
+# 👋 Hello, I'm Nguyen Le Minh
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=600&lines=Senior+Software+Engineer+%40+Zalo;Building+Scalable+Systems;Low+Latency+High+Throughput)](https://git.io/typing-svg)
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 🚀 Về tôi
+## 🚀 About Me
 
 ```java
 public class MinhNguyen {
@@ -33,7 +33,7 @@ public class MinhNguyen {
 
 <div align="center">
 
-### 💼 Đang làm việc tại
+### 💼 Currently Working At
 
 <img src="https://img.shields.io/badge/Zalo-0068FF?style=for-the-badge&logo=zalando&logoColor=white" alt="Zalo"/>
 
@@ -41,7 +41,7 @@ public class MinhNguyen {
 
 ---
 
-## 💼 Kinh nghiệm làm việc
+## 💼 Work Experience
 
 ### Zalo | Senior Software Engineer
 **2021 - Present**
@@ -89,15 +89,15 @@ public class MinhNguyen {
 
 ---
 
-## 🏆 Dự án nổi bật
+## 🏆 Featured Projects
 
 <div align="center">
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| 📱 **Zalo Core Features** | Tối ưu hóa các tính năng core của Zalo | Java, Kafka, Thrift, MySQL |
-| 🏢 **Business Account** | Nền tảng zBusiness - Giải pháp tài khoản kinh doanh giúp cá nhân bán hàng hiệu quả hơn trên Zalo | Java, Kafka, MongoDB |
-| 💳 **zBox Payment Gateway** | Cổng thanh toán tích hợp ZaloPay, Napas, Momo | Java, Kafka, gRPC, Redis |
+| 📱 **Zalo Core Features** | Optimized core Zalo features | Java, Kafka, Thrift, MySQL |
+| 🏢 **Business Account** | zBusiness Platform - A business account solution helping individuals sell more effectively on Zalo | Java, Kafka, MongoDB |
+| 💳 **zBox Payment Gateway** | High-performance payment gateway, integrating ZaloPay, Napas, Momo | Java, Kafka, gRPC, Redis |
 
 </div>
 
@@ -112,7 +112,7 @@ public class MinhNguyen {
 *Với lòng tự hào dân tộc và yêu mến văn hoá, lịch sử nước nhà.*
 *Arcania Studio muốn thông qua những dự án truyện tranh để **đem sử Việt ra thế giới**.*
 
-**🎯 Tương lai: Games • Platform • Animation**
+**🎯 Future: Games • Platform • Animation**
 
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
 <img src="https://img.shields.io/badge/Java_Backend-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
@@ -139,7 +139,7 @@ public class MinhNguyen {
 
 ---
 
-## 🤝 Kết nối với tôi
+## 🤝 Connect with Me
 
 <div align="center">
 
@@ -159,7 +159,7 @@ public class MinhNguyen {
 
 <div align="center">
 
-### 💭 Quote yêu thích
+### 💭 Favorite Quote
 
 *"First, solve the problem. Then, write the code."* - John Johnson
 
