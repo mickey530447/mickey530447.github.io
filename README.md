@@ -101,17 +101,27 @@ public class MinhNguyen {
 | 📱 **Zalo Core Features** | Tối ưu hóa các tính năng core của Zalo | Java, Kafka, Thrift, MySQL |
 | 🏢 **Business Account** | Nền tảng quản lý tài khoản doanh nghiệp | Java, Kafka, MongoDB |
 | 💳 **zBox Payment Gateway** | Cổng thanh toán tích hợp ZaloPay, Napas, Momo | Java, Kafka, gRPC, Redis |
-| 📚 **Arcania Studio** | Đem sử Việt ra thế giới qua truyện tranh | Next.js, Java, MongoDB |
 
 </div>
 
 ---
 
-## 📚 Personal Project - Arcania Studio
+## ✨ Personal Project
 
 <div align="center">
 
-*Với lòng tự hào dân tộc và yêu mến văn hoá, lịch sử nước nhà. Arcania Studio muốn thông qua những dự án truyện tranh để đem sử Việt ra thế giới.*
+### 📚 Arcania Studio
+
+*Với lòng tự hào dân tộc và yêu mến văn hoá, lịch sử nước nhà.*
+*Arcania Studio muốn thông qua những dự án truyện tranh để **đem sử Việt ra thế giới**.*
+
+**🎯 Tương lai: Games • Platform • Animation**
+
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+<img src="https://img.shields.io/badge/Java_Backend-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+
+<br/><br/>
 
 <a href="https://www.facebook.com/profile.php?id=61576227615421">
   <img src="https://img.shields.io/badge/Follow_Arcania_Studio-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
