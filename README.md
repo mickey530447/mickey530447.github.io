@@ -20,11 +20,8 @@ public class MinhNguyen {
     private String company = "Zalo";
     private String location = "Ho Chi Minh City";
     
-    private String[] primarySkills = {
-        "Java", "Python", "Kafka", "gRPC"
-    };
-    
-    private String[] databases = {
+    private String[] techStacks = {
+        "Java", "Kafka", "gRPC",
         "MySQL", "MongoDB", "Redis"
     };
     
