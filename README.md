@@ -96,7 +96,7 @@ public class MinhNguyen {
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
 | 📱 **Zalo Core Features** | Tối ưu hóa các tính năng core của Zalo | Java, Kafka, Thrift, MySQL |
-| 🏢 **Business Account** | Nền tảng quản lý tài khoản doanh nghiệp | Java, Kafka, MongoDB |
+| 🏢 **Business Account** | Nền tảng zBusiness - Giải pháp tài khoản kinh doanh giúp cá nhân bán hàng hiệu quả hơn trên Zalo | Java, Kafka, MongoDB |
 | 💳 **zBox Payment Gateway** | Cổng thanh toán tích hợp ZaloPay, Napas, Momo | Java, Kafka, gRPC, Redis |
 
 </div>
