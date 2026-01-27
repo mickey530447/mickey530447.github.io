@@ -21,8 +21,9 @@ public class MinhNguyen {
     private String location = "Ho Chi Minh City";
     
     private String[] techStacks = {
-        "Java", "Kafka", "gRPC",
-        "MySQL", "MongoDB", "Redis"
+        "Java", "Python", "Kafka", "Thrift",
+        "gRPC", "JWT", "MySQL", "MongoDB",
+        "Redis", "Linux"
     };
     
     public String getPhilosophy() {
@@ -83,7 +84,7 @@ public class MinhNguyen {
 **Tools & Platform**
 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+
 
 </div>
 
