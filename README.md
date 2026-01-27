@@ -97,7 +97,7 @@ public class MinhNguyen {
 |---------|-------------|------------|
 | 📱 **Zalo Core Features** | Optimized core Zalo features | Java, Kafka, Thrift, MySQL |
 | 🏢 **Business Account** | zBusiness Platform - A business account solution helping individuals sell more effectively on Zalo | Java, Kafka, MongoDB |
-| 💳 **zBox Payment Gateway** | High-performance payment gateway, integrating ZaloPay, Napas, Momo | Java, Kafka, gRPC, Redis |
+| 💳 **zBox Payment Gateway** | High-performance payment gateway, integrating ZaloPay, Napas, Momo | Java, Kafka, Thrift, Redis |
 
 </div>
 
