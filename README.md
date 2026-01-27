@@ -93,11 +93,11 @@ public class MinhNguyen {
 
 <div align="center">
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| 📱 **Zalo Core Features** | Optimized core Zalo features | Java, Kafka, Thrift, MySQL |
-| 🏢 **Business Account** | zBusiness Platform - A business account solution helping individuals sell more effectively on Zalo | Java, Kafka, MongoDB |
-| 💳 **zBox Payment Gateway** | High-performance payment gateway, integrating ZaloPay, Napas, Momo | Java, Kafka, Thrift, Redis |
+| Project | Description |
+|---------|-------------|
+| 📱 **Zalo Core Features** | Optimized core Zalo features |
+| 🏢 **Business Account** | zBusiness Platform - A business account solution helping individuals sell more effectively on Zalo |
+| 💳 **zBox Payment Gateway** | High-performance payment gateway, integrating ZaloPay, Napas, Momo |
 
 </div>
 
