@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyễn Lê Minh | Senior Backend Engineer</title>
+    <title>Nguyễn Lê Minh | Senior Software Engineer</title>
     <meta name="description"
-        content="Senior Backend Engineer at Zalo. Passionate about building scalable systems with Java, Python, Kafka.">
+        content="Senior Software Engineer at Zalo. Building high-performance systems handling millions of transactions with Java, Python, Kafka.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,6 +20,7 @@
             --accent-cyan: #00d9ff;
             --accent-purple: #a855f7;
             --accent-pink: #ec4899;
+            --accent-green: #22c55e;
             --text-primary: #f1f5f9;
             --text-secondary: #94a3b8;
             --text-muted: #64748b;
@@ -127,14 +128,6 @@
             animation: pulse 3s ease-in-out infinite;
         }
 
-        .avatar img {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            object-fit: cover;
-            background: var(--bg-primary);
-        }
-
         .avatar-placeholder {
             width: 100%;
             height: 100%;
@@ -171,8 +164,14 @@
         .hero .tagline {
             font-size: clamp(1.1rem, 2.5vw, 1.4rem);
             color: var(--text-secondary);
-            margin-bottom: 30px;
+            margin-bottom: 15px;
             font-weight: 300;
+        }
+
+        .hero .location {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-bottom: 30px;
         }
 
         .company-badge {
@@ -266,13 +265,45 @@
             font-size: 1.1rem;
         }
 
+        /* Stats Banner */
+        .stats-banner {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            margin-bottom: 80px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px 30px;
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 800;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 5px;
+        }
+
         /* Code Block - About */
         .code-block {
             background: var(--bg-secondary);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 16px;
             overflow: hidden;
-            max-width: 700px;
+            max-width: 750px;
             margin: 0 auto;
             animation: fadeInUp 0.8s ease-out;
         }
@@ -307,7 +338,7 @@
         .code-content {
             padding: 24px;
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             line-height: 1.8;
             overflow-x: auto;
             white-space: pre-wrap;
@@ -324,6 +355,10 @@
 
         .code-string {
             color: #98c379;
+        }
+
+        .code-number {
+            color: #d19a66;
         }
 
         .code-comment {
@@ -383,6 +418,115 @@
             background: rgba(0, 217, 255, 0.1);
         }
 
+        .tech-item.primary {
+            background: rgba(0, 217, 255, 0.15);
+            border: 1px solid rgba(0, 217, 255, 0.3);
+        }
+
+        /* Experience Timeline */
+        .timeline {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, var(--accent-cyan), var(--accent-purple));
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 60px;
+            padding-bottom: 40px;
+        }
+
+        .timeline-item:last-child {
+            padding-bottom: 0;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 12px;
+            top: 5px;
+            width: 18px;
+            height: 18px;
+            background: var(--bg-primary);
+            border: 3px solid var(--accent-cyan);
+            border-radius: 50%;
+        }
+
+        .timeline-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-card:hover {
+            border-color: rgba(0, 217, 255, 0.3);
+            transform: translateX(5px);
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .timeline-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .timeline-role {
+            color: var(--accent-cyan);
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .timeline-date {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 4px 12px;
+            border-radius: 20px;
+        }
+
+        .timeline-highlights {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .timeline-highlights li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .timeline-highlights li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--accent-purple);
+        }
+
+        .timeline-highlights .highlight {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
         /* Projects */
         .projects-grid {
             display: grid;
@@ -437,8 +581,20 @@
 
         .project-card p {
             color: var(--text-secondary);
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             font-size: 0.95rem;
+        }
+
+        .project-stats {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .project-stat {
+            font-size: 0.85rem;
+            color: var(--accent-green);
+            font-weight: 600;
         }
 
         .project-tech {
@@ -454,6 +610,54 @@
             font-size: 0.8rem;
             color: var(--accent-purple);
             font-weight: 500;
+        }
+
+        /* Education */
+        .education-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .education-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .education-card:hover {
+            border-color: rgba(0, 217, 255, 0.3);
+        }
+
+        .education-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+
+        .education-card .degree {
+            color: var(--accent-cyan);
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+        }
+
+        .education-card .details {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .gpa-badge {
+            display: inline-block;
+            background: rgba(34, 197, 94, 0.15);
+            color: var(--accent-green);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 10px;
         }
 
         /* GitHub Stats */
@@ -543,11 +747,6 @@
             border-top: 1px solid rgba(255, 255, 255, 0.05);
         }
 
-        footer a {
-            color: var(--accent-cyan);
-            text-decoration: none;
-        }
-
         /* Responsive */
         @media (max-width: 640px) {
             .hero {
@@ -567,6 +766,18 @@
                 width: 100%;
                 max-width: 280px;
                 justify-content: center;
+            }
+
+            .timeline::before {
+                left: 10px;
+            }
+
+            .timeline-item {
+                padding-left: 40px;
+            }
+
+            .timeline-dot {
+                left: 2px;
             }
 
             .contact-grid {
@@ -594,10 +805,11 @@
                 <div class="avatar-placeholder">👨‍💻</div>
             </div>
             <h1>Nguyễn Lê Minh</h1>
-            <p class="tagline">Building scalable systems that power millions</p>
+            <p class="tagline">Building high-performance systems that scale</p>
+            <p class="location">📍 Ho Chi Minh City, Vietnam</p>
             <div class="company-badge">
                 <span class="dot"></span>
-                <span>Senior Backend Engineer @ Zalo</span>
+                <span>Senior Software Engineer @ Zalo</span>
             </div>
             <div class="social-links">
                 <a href="https://github.com/mickey530447" target="_blank">
@@ -614,7 +826,7 @@
                     </svg>
                     Email
                 </a>
-                <a href="tel:0935659249">
+                <a href="tel:+84935659249">
                     <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -630,7 +842,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>🚀 Về tôi</h2>
-                <p>Passionate about clean code and scalable architecture</p>
+                <p>Passionate about building scalable, high-performance systems</p>
             </div>
             <div class="code-block">
                 <div class="code-header">
@@ -640,24 +852,78 @@
                 </div>
                 <div class="code-content">
                     <span class="code-keyword">public class</span> <span class="code-class">MinhNguyen</span> {
-                    <span class="code-keyword">private</span> String role = <span class="code-string">"Senior Backend
+                    <span class="code-keyword">private</span> String role = <span class="code-string">"Senior Software
                         Engineer"</span>;
                     <span class="code-keyword">private</span> String company = <span class="code-string">"Zalo"</span>;
-                    <span class="code-keyword">private</span> String location = <span
-                        class="code-string">"Vietnam"</span>;
+                    <span class="code-keyword">private</span> String location = <span class="code-string">"Ho Chi Minh
+                        City"</span>;
 
-                    <span class="code-keyword">private</span> String[] techStack = {
+                    <span class="code-keyword">private</span> String[] primarySkills = {
                     <span class="code-string">"Java"</span>, <span class="code-string">"Python"</span>, <span
-                        class="code-string">"Spring Boot"</span>,
-                    <span class="code-string">"Kafka"</span>, <span class="code-string">"JWT"</span>, <span
-                        class="code-string">"Microservices"</span>
+                        class="code-string">"Kafka"</span>, <span class="code-string">"gRPC"</span>
+                    };
+
+                    <span class="code-keyword">private</span> String[] databases = {
+                    <span class="code-string">"MySQL"</span>, <span class="code-string">"MongoDB"</span>, <span
+                        class="code-string">"Redis"</span>
                     };
 
                     <span class="code-keyword">public</span> String <span class="code-class">getPhilosophy</span>() {
-                    <span class="code-keyword">return</span> <span class="code-string">"Code is poetry, Architecture is
-                        art 🎨"</span>;
+                    <span class="code-keyword">return</span> <span class="code-string">"Optimize for low latency, high
+                        throughput 🚀"</span>;
                     }
                     }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>💼 Kinh nghiệm làm việc</h2>
+                <p>Building products that serve millions of users</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <div class="timeline-role">Senior Software Engineer</div>
+                                <div class="timeline-title">Zalo</div>
+                            </div>
+                            <span class="timeline-date">2021 - Present</span>
+                        </div>
+                        <ul class="timeline-highlights">
+                            <li>Optimized <span class="highlight">Zalo core features</span> (group, profile, friend) on
+                                PC platform, achieving <span class="highlight">5000 RQS</span></li>
+                            <li>Designed and developed <span class="highlight">Business Account</span> with peak request
+                                <span class="highlight">2000 RQS</span>, serving million users
+                            </li>
+                            <li>Built <span class="highlight">zBox payment gateway</span> optimized for low latency and
+                                high throughput, processing <span class="highlight">2M+ transactions/day</span></li>
+                            <li>Integrated external gateways: <span class="highlight">ZaloPay, Napas, Momo</span></li>
+                            <li>Implemented centralized log monitoring system with automated alerts for QoS tracking
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <div class="timeline-role">Intern</div>
+                                <div class="timeline-title">MGM Technology Partners</div>
+                            </div>
+                            <span class="timeline-date">02/2020 - 06/2020</span>
+                        </div>
+                        <ul class="timeline-highlights">
+                            <li>Used <span class="highlight">React</span> to maintain and develop internal website</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -674,16 +940,16 @@
                 <div class="tech-category">
                     <h3>Languages</h3>
                     <div class="tech-list">
-                        <span class="tech-item">☕ Java</span>
+                        <span class="tech-item primary">☕ Java (Primary)</span>
                         <span class="tech-item">🐍 Python</span>
-                        <span class="tech-item">🗃️ SQL</span>
                     </div>
                 </div>
                 <div class="tech-category">
-                    <h3>Frameworks</h3>
+                    <h3>Frameworks & Protocols</h3>
                     <div class="tech-list">
-                        <span class="tech-item">🍃 Spring Boot</span>
                         <span class="tech-item">📨 Kafka</span>
+                        <span class="tech-item">🔗 Thrift</span>
+                        <span class="tech-item">⚡ gRPC</span>
                         <span class="tech-item">🔐 JWT</span>
                     </div>
                 </div>
@@ -692,17 +958,15 @@
                     <div class="tech-list">
                         <span class="tech-item">🐬 MySQL</span>
                         <span class="tech-item">🍃 MongoDB</span>
-                        <span class="tech-item">🐘 PostgreSQL</span>
                         <span class="tech-item">⚡ Redis</span>
                     </div>
                 </div>
                 <div class="tech-category">
-                    <h3>Tools</h3>
+                    <h3>Tools & Platform</h3>
                     <div class="tech-list">
-                        <span class="tech-item">🐳 Docker</span>
                         <span class="tech-item">🐧 Linux</span>
                         <span class="tech-item">🔀 Git</span>
-                        <span class="tech-item">💡 IntelliJ</span>
+                        <span class="tech-item">🐳 Docker</span>
                     </div>
                 </div>
             </div>
@@ -714,37 +978,47 @@
         <div class="container">
             <div class="section-header">
                 <h2>🏆 Dự án nổi bật</h2>
-                <p>Building products that make an impact</p>
+                <p>High-impact projects I've contributed to</p>
             </div>
             <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">📱</div>
+                    <h3>Zalo Core Features</h3>
+                    <p>Tối ưu hóa các tính năng core của Zalo (group, profile, friend) trên nền tảng PC</p>
+                    <div class="project-stats">
+                        <span class="project-stat">⚡ 5000 RQS</span>
+                    </div>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Thrift</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
                 <div class="project-card">
                     <div class="project-icon">🏢</div>
                     <h3>Business Account</h3>
                     <p>Nền tảng quản lý tài khoản doanh nghiệp, phục vụ hàng triệu SMB trên Zalo</p>
+                    <div class="project-stats">
+                        <span class="project-stat">⚡ 2000 RQS</span>
+                        <span class="project-stat">👥 1M+ Users</span>
+                    </div>
                     <div class="project-tech">
                         <span>Java</span>
-                        <span>Spring Boot</span>
                         <span>Kafka</span>
+                        <span>MongoDB</span>
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-icon">📦</div>
-                    <h3>zBox</h3>
-                    <p>Hệ thống lưu trữ đám mây với hiệu năng cao và bảo mật enterprise-grade</p>
-                    <div class="project-tech">
-                        <span>Java</span>
-                        <span>Microservices</span>
-                        <span>Distributed Systems</span>
+                    <div class="project-icon">💳</div>
+                    <h3>zBox Payment Gateway</h3>
+                    <p>Cổng thanh toán với hiệu năng cao, tích hợp ZaloPay, Napas, Momo</p>
+                    <div class="project-stats">
+                        <span class="project-stat">📊 2M+ txn/day</span>
                     </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-icon">🎮</div>
-                    <h3>Arcania</h3>
-                    <p>Dự án game cá nhân - khám phá thế giới fantasy với gameplay RPG</p>
                     <div class="project-tech">
                         <span>Java</span>
-                        <span>Python</span>
-                        <span>Game Dev</span>
+                        <span>gRPC</span>
+                        <span>Redis</span>
                     </div>
                 </div>
             </div>
@@ -756,7 +1030,6 @@
         <div class="container">
             <div class="section-header">
                 <h2>📊 GitHub Stats</h2>
-                <p>My coding activity</p>
             </div>
             <div class="stats-grid">
                 <img src="https://github-readme-stats.vercel.app/api?username=mickey530447&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0f"
@@ -782,12 +1055,12 @@
                     </svg>
                     <span>nguyenleminh530447@gmail.com</span>
                 </a>
-                <a href="tel:0935659249" class="contact-item">
+                <a href="tel:+84935659249" class="contact-item">
                     <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>0935 659 249</span>
+                    <span>(+84) 935 659 249</span>
                 </a>
                 <a href="https://github.com/mickey530447" target="_blank" class="contact-item">
                     <svg fill="currentColor" viewBox="0 0 24 24">
