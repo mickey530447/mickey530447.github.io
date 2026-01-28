@@ -27,7 +27,7 @@ public class MinhNguyen {
     };
     
     public String getPhilosophy() {
-        return "Optimize for low latency, high throughput 🚀";
+        return "First, solve the problem. Then, write the code.";
     }
 }
 ```
