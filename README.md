@@ -106,6 +106,8 @@ public class MinhNguyen {
 
 ## ✨ Personal Project
 
+*My creative journey, one step at a time*
+
 <div align="center">
 
 ### 📚 Arcania Studio
