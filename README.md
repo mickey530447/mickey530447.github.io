@@ -139,9 +139,7 @@ public class MinhNguyen {
 <a href="mailto:nguyenleminh530447@gmail.com">
   <img src="https://img.shields.io/badge/Email-nguyenleminh530447%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
-<a href="tel:+84935659249">
-  <img src="https://img.shields.io/badge/Phone-(+84)_935_659_249-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone"/>
-</a>
+
 <a href="https://github.com/mickey530447">
   <img src="https://img.shields.io/badge/GitHub-mickey530447-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
