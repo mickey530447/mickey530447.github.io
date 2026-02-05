@@ -94,11 +94,11 @@ public class MinhNguyen {
 
 <div align="center">
 
-| Project | Description |
-|---------|-------------|
-| 📱 **Zalo Core Features** | Optimized core Zalo features |
-| 🏢 **Business Account** | zBusiness Platform - A business account solution helping individuals sell more effectively on Zalo |
-| 💳 **zBox Payment Gateway** | High-performance payment gateway, integrating ZaloPay, Napas, Momo |
+| Project                    | Description                                                                                        |
+| -------------------------- | -------------------------------------------------------------------------------------------------- |
+| 📱 **Zalo Core Features**   | Optimized core Zalo features                                                                       |
+| 🏢 **Business Account**     | zBusiness Platform - A business account solution helping individuals sell more effectively on Zalo |
+| 💳 **zBox Payment Gateway** | High-performance payment gateway, integrating ZaloPay, Napas, Momo                                 |
 
 </div>
 
@@ -144,6 +144,9 @@ public class MinhNguyen {
 
 <a href="https://github.com/mickey530447">
   <img src="https://img.shields.io/badge/GitHub-mickey530447-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://www.linkedin.com/in/le-minh-nguyen-0a4b4413a/">
+  <img src="https://img.shields.io/badge/LinkedIn-Le_Minh_Nguyen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
 </div>
