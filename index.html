@@ -914,7 +914,7 @@
     <span class="code-keyword">private</span> String[] techStacks = {
         <span class="code-string">"Java"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"Kafka"</span>, <span class="code-string">"Thrift"</span>,
         <span class="code-string">"gRPC"</span>, <span class="code-string">"JWT"</span>, <span class="code-string">"MySQL"</span>, <span class="code-string">"MongoDB"</span>,
-        <span class="code-string">"Redis"</span>, <span class="code-string">"Linux"</span>
+        <span class="code-string">"Redis"</span>, <span class="code-string">"Linux"</span>, <span class="code-string">"Git"</span>, <span class="code-string">"CI/CD"</span>
     };
 
     <span class="code-keyword">public</span> String <span class="code-class">getPhilosophy</span>() {
@@ -945,16 +945,23 @@
                             <span class="timeline-date">2021 - Present</span>
                         </div>
                         <ul class="timeline-highlights">
-                            <li>Optimized <span class="highlight">Zalo core features</span> (group, profile, friend) on
-                                PC platform, achieving <span class="highlight">5000 RQS</span></li>
-                            <li>Designed and developed <span class="highlight">Business Account</span> with peak request
-                                <span class="highlight">2000 RQS</span>, serving million users
+                            <li><strong>Business Account:</strong> Designed and developed as a <span
+                                    class="highlight">distributed system</span> with inter-service communication via
+                                Thrift and Message Queue, serving millions of users with peak <span
+                                    class="highlight">2000 RPS</span></li>
+                            <li>Architected for <span class="highlight">high availability</span> and horizontal
+                                scalability, leveraging multi-instance replicated caching</li>
+                            <li>Implemented role-based access control and exposed secure APIs for dependent services
                             </li>
-                            <li>Built <span class="highlight">zBox payment gateway</span> optimized for low latency and
-                                high throughput, processing <span class="highlight">2M+ transactions/day</span></li>
-                            <li>Integrated external gateways: <span class="highlight">ZaloPay, Napas, Momo</span></li>
-                            <li>Implemented centralized log monitoring system with automated alerts for QoS tracking
-                            </li>
+                            <li><strong>zBox Payment Gateway:</strong> Built payment gateway for the Zalo ecosystem,
+                                optimized for low latency and high throughput, processing <span class="highlight">2M+
+                                    transactions/day</span></li>
+                            <li>Integrated external gateways (<span class="highlight">ZaloPay, Napas, Momo</span>) with
+                                unified transaction routing and automated reconciliation</li>
+                            <li>Built internal admin system for transaction monitoring and merchant management</li>
+                            <li><strong>PC/Web Core Features:</strong> Optimized <span class="highlight">Zalo core
+                                    features</span> (group, profile, friend) on PC platform, maintaining <span
+                                    class="highlight">5000 RPS</span></li>
                         </ul>
                     </div>
                 </div>
@@ -969,7 +976,7 @@
                             <span class="timeline-date">02/2020 - 06/2020</span>
                         </div>
                         <ul class="timeline-highlights">
-                            <li>Used <span class="highlight">React</span> to maintain and develop internal website</li>
+                            <li>Used <span class="highlight">React</span> to maintain and improve internal websites</li>
                         </ul>
                     </div>
                 </div>
@@ -1013,7 +1020,18 @@
                     <h3>Tools & Platform</h3>
                     <div class="tech-list">
                         <span class="tech-item">🐧 Linux</span>
-
+                        <span class="tech-item">🔀 Git</span>
+                        <span class="tech-item">📋 Jira</span>
+                        <span class="tech-item">🔄 CI/CD</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>Architecture</h3>
+                    <div class="tech-list">
+                        <span class="tech-item">🏗️ Microservices</span>
+                        <span class="tech-item">🌐 Distributed System</span>
+                        <span class="tech-item">🔒 High Availability</span>
+                        <span class="tech-item">📈 Scalability</span>
                     </div>
                 </div>
             </div>
@@ -1047,6 +1065,49 @@
                     <h3>zBox Payment Gateway</h3>
                     <p>High-performance payment gateway, integrating ZaloPay, Napas, Momo</p>
 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>🎓 Education</h2>
+                <p>Academic background</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <div class="timeline-role">BSc Computer Science</div>
+                                <div class="timeline-title">University of Greenwich</div>
+                            </div>
+                            <span class="timeline-date">2018 - 2021</span>
+                        </div>
+                        <ul class="timeline-highlights">
+                            <li>GPA: <span class="highlight">3.5/4</span> — Second Class Honours (1st Division)</li>
+                            <li>📍 Da Nang, Vietnam</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <div>
+                                <div class="timeline-role">High School for the Gifted</div>
+                                <div class="timeline-title">Quoc Hoc Hue</div>
+                            </div>
+                            <span class="timeline-date">Hue</span>
+                        </div>
+                        <ul class="timeline-highlights">
+                            <li>Major: <span class="highlight">Information Technology (IT)</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

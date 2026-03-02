@@ -23,7 +23,7 @@ public class MinhNguyen {
     private String[] techStacks = {
         "Java", "Python", "Kafka", "Thrift",
         "gRPC", "JWT", "MySQL", "MongoDB",
-        "Redis", "Linux"
+        "Redis", "Linux", "Git", "CI/CD"
     };
     
     public String getPhilosophy() {
@@ -47,15 +47,18 @@ public class MinhNguyen {
 ### Zalo | Senior Software Engineer
 **2021 - Present**
 
-- ⚡ Optimized **Zalo core features** (group, profile, friend) on PC platform
-- 🏢 Designed and developed **Business Account** platform for millions of SMB users
-- 💳 Built **zBox payment gateway** with high throughput, integrated ZaloPay, Napas, Momo
-- 📊 Implemented centralized log monitoring system with automated alerts
+- ⚡ **Business Account:** Designed and developed as a distributed system with inter-service communication via Thrift and MQ, serving millions of users with peak **2000 RPS**
+- 🏗️ Architected for high availability and horizontal scalability, leveraging multi-instance replicated caching
+- 🔒 Implemented role-based access control and exposed secure APIs for dependent services
+- 💳 **zBox Payment Gateway:** Built payment gateway optimized for low latency and high throughput, processing **2M+ transactions/day**
+- 🔗 Integrated external gateways (ZaloPay, Napas, Momo) with unified transaction routing and automated reconciliation
+- 📊 Built internal admin system for transaction monitoring and merchant management
+- 📱 **PC/Web Core Features:** Optimized Zalo core features (group, profile, friend) on PC platform, maintaining **5000 RPS**
 
 ### MGM Technology Partners | Intern
 **02/2020 - 06/2020**
 
-- Used **React** to maintain and develop internal website
+- Used **React** to maintain and improve internal websites
 
 ---
 
@@ -84,7 +87,16 @@ public class MinhNguyen {
 **Tools & Platform**
 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira"/>
+<img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD"/>
 
+**Architecture**
+
+<img src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logoColor=white" alt="Microservices"/>
+<img src="https://img.shields.io/badge/Distributed_System-4285F4?style=for-the-badge&logoColor=white" alt="Distributed System"/>
+<img src="https://img.shields.io/badge/High_Availability-00C853?style=for-the-badge&logoColor=white" alt="High Availability"/>
+<img src="https://img.shields.io/badge/Scalability-7B1FA2?style=for-the-badge&logoColor=white" alt="Scalability"/>
 
 </div>
 
@@ -101,6 +113,18 @@ public class MinhNguyen {
 | 💳 **zBox Payment Gateway** | High-performance payment gateway, integrating ZaloPay, Napas, Momo                                 |
 
 </div>
+
+---
+
+## 🎓 Education
+
+### University of Greenwich | BSc Computer Science
+**2018 - 2021** | Da Nang, Vietnam
+
+- GPA: **3.5/4** — Second Class Honours (1st Division)
+
+### Quoc Hoc Hue | High School for the Gifted
+- Major: **Information Technology (IT)**
 
 ---
 
