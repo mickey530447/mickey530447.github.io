@@ -47,17 +47,20 @@ public class MinhNguyen {
 ### Zalo | Senior Software Engineer
 **2021 - Present**
 
-- ⚡ **Business Account:** Designed and developed as a distributed system with inter-service communication via Thrift and MQ, serving millions of users with peak **2000 RPS**
-- 🏗️ Architected for high availability and horizontal scalability, leveraging multi-instance replicated caching to optimize read performance and reduce backend load
-- 📊 Continuously monitored and analyzed system metrics to detect and resolve performance bottlenecks, ensuring consistent service reliability
-- 🔒 Implemented role-based access control and exposed secure APIs for dependent services, ensuring system security and stability
-- ✨ Developed new features including security enhancements, account settings, and badge decorations
-- 💳 **zBox Payment Gateway:** Built payment gateway for the Zalo ecosystem, optimized for low latency and high throughput, processing **2M+ transactions/day**
-- 🔗 Integrated external gateways (ZaloPay, Napas, Momo) with unified transaction routing, error handling, and automated reconciliation
-- ⚙️ Provided backend support and optimized SDK APIs to ensure fast and reliable data access
-- 🛡️ Built internal admin system for transaction monitoring, merchant management, and role-based access control
-- 🖥️ Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary
-- 📱 **PC/Web Core Features:** Optimized Zalo core features (group, profile, friend) on PC platform, maintained and improved system performance with **5000 RPS**
+- ⚡ **Business Account:**
+  - Designed and developed as a distributed system with inter-service communication via Thrift and MQ, serving millions of users with peak **2000 RPS**
+  - Architected for high availability and horizontal scalability, leveraging multi-instance replicated caching to optimize read performance and reduce backend load
+  - Continuously monitored and analyzed system metrics to detect and resolve performance bottlenecks, ensuring consistent service reliability
+  - Implemented role-based access control and exposed secure APIs for dependent services, ensuring system security and stability
+  - Developed new features including security enhancements, account settings, and badge decorations
+- 💳 **zBox Payment Gateway:**
+  - Built payment gateway for the Zalo ecosystem, optimized for low latency and high throughput, processing **2M+ transactions/day**
+  - Integrated external gateways (ZaloPay, Napas, Momo) with unified transaction routing, error handling, and automated reconciliation
+  - Provided backend support and optimized SDK APIs to ensure fast and reliable data access
+  - Built internal admin system for transaction monitoring, merchant management, and role-based access control
+  - Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary
+- 📱 **PC/Web Core Features:**
+  - Optimized Zalo core features (group, profile, friend) on PC platform, maintained and improved system performance with **5000 RPS**
 
 ### MGM Technology Partners | Intern
 **02/2020 - 06/2020**
