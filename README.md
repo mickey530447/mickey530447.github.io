@@ -48,7 +48,7 @@ public class MinhNguyen {
 **2021 - Present**
 
 - ⚡ **Business Account:**
-  - Designed and developed as a distributed system with inter-service communication via Thrift and MQ, serving millions of users with peak **2000 RPS**
+  - Designed and developed as a distributed system with inter-service communication via Thrift and MQ, serving **2M+ users** with peak **10,000 RPS**, achieving **P99 < 50ms** and **99.95% availability**
   - Architected for high availability and horizontal scalability, leveraging multi-instance replicated caching to optimize read performance and reduce backend load
   - Continuously monitored and analyzed system metrics to detect and resolve performance bottlenecks, ensuring consistent service reliability
   - Implemented role-based access control and exposed secure APIs for dependent services, ensuring system security and stability
