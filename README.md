@@ -21,7 +21,7 @@ public class MinhNguyen {
     private String location = "Ho Chi Minh City";
     
     private String[] techStacks = {
-        "Java", "Python", "Kafka", "Thrift",
+        "Java", "Python", "Message Queue", "Thrift",
         "gRPC", "JWT", "MySQL", "MongoDB",
         "Redis", "Linux", "Git", "CI/CD"
     };
@@ -48,19 +48,19 @@ public class MinhNguyen {
 **2021 - Present**
 
 - ⚡ **Business Account:**
-  - Designed and developed as a distributed system with inter-service communication via Thrift and MQ, serving **2M+ users**, achieving **P99 < 50ms** and **99.95% availability**
-  - Architected for high availability and horizontal scalability, leveraging multi-instance replicated caching to optimize read performance and reduce backend load
-  - Continuously monitored and analyzed system metrics to detect and resolve performance bottlenecks, ensuring consistent service reliability
-  - Implemented role-based access control and exposed secure APIs for dependent services, ensuring system security and stability
-  - Developed new features including security enhancements, account settings, and badge decorations
+  - Designed a distributed architecture utilizing **Thrift RPC** for synchronous calls and an **in-house Message Queue** for asynchronous event processing, serving **2M+ users** while maintaining **P99 < 50ms** latency and **99.95\% availability**.
+  - Minimized database bottlenecks and scaled read performance horizontally by implementing a **multi-instance replicated cache cluster**.
+  - Proactively detected and resolved performance bottlenecks by establishing real-time observability using **monitoring dashboards (Grafana)**, ensuring strict service SLAs.
+  - Implemented role-based access control and exposed secure APIs for dependent services, ensuring system security and stability.
+  - Developed new features including security enhancements, account settings, and badge decorations.
 - 💳 **zBox Payment Gateway:**
-  - Built payment gateway for the Zalo ecosystem, optimized for low latency and high throughput, processing **2M+ transactions/day**
-  - Integrated external gateways (ZaloPay, Napas, Momo) with unified transaction routing, error handling, and automated reconciliation
-  - Provided backend support and optimized SDK APIs to ensure fast and reliable data access
-  - Built internal admin system for transaction monitoring, merchant management, and role-based access control
-  - Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary
+  - Participated in building the zBox payment gateway for the Zalo ecosystem, optimized for low latency and high throughput, processing **2M+ transactions/day**.
+  - Standardized cross-platform payment flows by designing a **unified transaction routing pattern** and **automated reconciliation cron jobs** to seamlessly integrate ZaloPay, Napas, and Momo.
+  - Provided backend support and optimized SDK APIs to ensure fast and reliable data access.
+  - Centralized operational control by building an internal admin portal featuring **Role-Based Access Control (RBAC)**, enabling secure transaction monitoring and merchant management.
+  - Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary while ensuring secure handling of sensitive user data.
 - 📱 **PC/Web Core Features:**
-  - Optimized Zalo core features (group, profile, friend) on PC platform, maintained and improved system performance with **5000 RPS**
+  - Optimized Zalo core features (group, profile, friend) on PC platform, maintained and improved system performance.
 
 ### MGM Technology Partners | Intern
 **02/2020 - 06/2020**
@@ -80,7 +80,7 @@ public class MinhNguyen {
 
 **Frameworks & Protocols**
 
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" alt="Apache Kafka"/>
+<img src="https://img.shields.io/badge/Message_Queue-231F20?style=for-the-badge&logoColor=white" alt="Message Queue"/>
 <img src="https://img.shields.io/badge/Thrift-D12127?style=for-the-badge&logoColor=white" alt="Thrift"/>
 <img src="https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=google&logoColor=white" alt="gRPC"/>
 <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" alt="JWT"/>

@@ -943,7 +943,7 @@
     <span class="code-keyword">private</span> String location = <span class="code-string">"Ho Chi Minh City"</span>;
 
     <span class="code-keyword">private</span> String[] techStacks = {
-        <span class="code-string">"Java"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"Kafka"</span>, <span class="code-string">"Thrift"</span>,
+        <span class="code-string">"Java"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"Message Queue"</span>, <span class="code-string">"Thrift"</span>,
         <span class="code-string">"gRPC"</span>, <span class="code-string">"JWT"</span>, <span class="code-string">"MySQL"</span>, <span class="code-string">"MongoDB"</span>,
         <span class="code-string">"Redis"</span>, <span class="code-string">"Linux"</span>, <span class="code-string">"Git"</span>, <span class="code-string">"CI/CD"</span>
     };
@@ -978,41 +978,25 @@
                         <ul class="timeline-highlights">
                             <li><strong>Business Account:</strong>
                                 <ul>
-                                    <li>Designed and developed as a <span class="highlight">distributed system</span>
-                                        with inter-service communication via Thrift and Message Queue, serving <span
-                                            class="highlight">2M+ users</span>, achieving <span class="highlight">P99 &lt; 50ms</span> and <span
-                                            class="highlight">99.95% availability</span></li>
-                                    <li>Architected for <span class="highlight">high availability</span> and horizontal
-                                        scalability, leveraging multi-instance replicated caching to optimize read
-                                        performance and reduce backend load</li>
-                                    <li>Continuously monitored and analyzed system metrics to detect and resolve
-                                        performance bottlenecks, ensuring consistent service reliability</li>
-                                    <li>Implemented role-based access control and exposed secure APIs for dependent
-                                        services, ensuring system security and stability</li>
-                                    <li>Developed new features including security enhancements, account settings, and
-                                        badge decorations</li>
+                                    <li>Designed a distributed architecture utilizing <span class="highlight">Thrift RPC</span> for synchronous calls and an <span class="highlight">in-house Message Queue</span> for asynchronous event processing, serving <span class="highlight">2M+ users</span> while maintaining <span class="highlight">P99 &lt; 50ms</span> latency and <span class="highlight">99.95% availability</span></li>
+                                    <li>Minimized database bottlenecks and scaled read performance horizontally by implementing a <span class="highlight">multi-instance replicated cache cluster</span></li>
+                                    <li>Proactively detected and resolved performance bottlenecks by establishing real-time observability using <span class="highlight">monitoring dashboards (Grafana)</span>, ensuring strict service SLAs</li>
+                                    <li>Implemented role-based access control and exposed secure APIs for dependent services, ensuring system security and stability</li>
+                                    <li>Developed new features including security enhancements, account settings, and badge decorations</li>
                                 </ul>
                             </li>
                             <li><strong>zBox Payment Gateway:</strong>
                                 <ul>
-                                    <li>Built payment gateway for the Zalo ecosystem, optimized for low latency and high
-                                        throughput, processing <span class="highlight">2M+ transactions/day</span></li>
-                                    <li>Integrated external gateways (<span class="highlight">ZaloPay, Napas,
-                                            Momo</span>) with unified transaction routing, error handling, and automated
-                                        reconciliation</li>
-                                    <li>Provided backend support and optimized SDK APIs to ensure fast and reliable data
-                                        access</li>
-                                    <li>Built internal admin system for transaction monitoring, merchant management, and
-                                        role-based access control</li>
-                                    <li>Developed the payment checkout landing page, guiding users through product
-                                        selection, payment method options, and order summary</li>
+                                    <li>Participated in building the zBox payment gateway for the Zalo ecosystem, optimized for low latency and high throughput, processing <span class="highlight">2M+ transactions/day</span></li>
+                                    <li>Standardized cross-platform payment flows by designing a <span class="highlight">unified transaction routing pattern</span> and <span class="highlight">automated reconciliation cron jobs</span> to seamlessly integrate ZaloPay, Napas, and Momo</li>
+                                    <li>Provided backend support and optimized SDK APIs to ensure fast and reliable data access</li>
+                                    <li>Centralized operational control by building an internal admin portal featuring <span class="highlight">Role-Based Access Control (RBAC)</span>, enabling secure transaction monitoring and merchant management</li>
+                                    <li>Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary while ensuring secure handling of sensitive user data</li>
                                 </ul>
                             </li>
                             <li><strong>PC/Web Core Features:</strong>
                                 <ul>
-                                    <li>Optimized <span class="highlight">Zalo core features</span> (group, profile,
-                                        friend) on PC platform, maintained and improved system performance with <span
-                                            class="highlight">5000 RPS</span></li>
+                                    <li>Optimized <span class="highlight">Zalo core features</span> (group, profile, friend) on PC platform, maintained and improved system performance</li>
                                 </ul>
                             </li>
                         </ul>
@@ -1055,7 +1039,7 @@
                 <div class="tech-category">
                     <h3>Frameworks & Protocols</h3>
                     <div class="tech-list">
-                        <span class="tech-item">📨 Kafka</span>
+                        <span class="tech-item">📨 Message Queue</span>
                         <span class="tech-item">🔗 Thrift</span>
                         <span class="tech-item">⚡ gRPC</span>
                         <span class="tech-item">🔐 JWT</span>
