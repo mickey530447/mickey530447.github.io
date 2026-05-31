@@ -17,7 +17,7 @@
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
     <meta name="description"
-        content="Senior Software Engineer at Zalo. Building high-performance systems handling millions of transactions with Java, Python, Kafka.">
+        content="Software Engineer specializing in Java, distributed systems, and Generative AI. Building high-performance systems handling millions of transactions.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -943,9 +943,8 @@
     <span class="code-keyword">private</span> String location = <span class="code-string">"Ho Chi Minh City"</span>;
 
     <span class="code-keyword">private</span> String[] techStacks = {
-        <span class="code-string">"Java"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"Message Queue"</span>, <span class="code-string">"Thrift"</span>,
-        <span class="code-string">"gRPC"</span>, <span class="code-string">"JWT"</span>, <span class="code-string">"MySQL"</span>, <span class="code-string">"MongoDB"</span>,
-        <span class="code-string">"Redis"</span>, <span class="code-string">"Linux"</span>, <span class="code-string">"Git"</span>, <span class="code-string">"CI/CD"</span>
+        <span class="code-string">"Java"</span>, <span class="code-string">"Message Queue"</span>, <span class="code-string">"Thrift"</span>,
+        <span class="code-string">"MongoDB"</span>, <span class="code-string">"Redis"</span>, <span class="code-string">"Generative AI (LLMs)"</span>
     };
 
     <span class="code-keyword">public</span> String <span class="code-class">getPhilosophy</span>() {
@@ -973,30 +972,33 @@
                                 <div class="timeline-role">Senior Software Engineer</div>
                                 <div class="timeline-title">Zalo</div>
                             </div>
-                            <span class="timeline-date">2021 - Present</span>
+                            <span class="timeline-date">08/2021 - 03/2026</span>
                         </div>
                         <ul class="timeline-highlights">
                             <li><strong>Business Account:</strong>
                                 <ul>
                                     <li>Designed a distributed architecture utilizing <span class="highlight">Thrift RPC</span> for synchronous calls and an <span class="highlight">in-house Message Queue</span> for asynchronous event processing, serving <span class="highlight">2M+ users</span> while maintaining <span class="highlight">P99 &lt; 50ms</span> latency and <span class="highlight">99.95% availability</span></li>
-                                    <li>Minimized database bottlenecks and scaled read performance horizontally by implementing a <span class="highlight">multi-instance replicated cache cluster</span></li>
-                                    <li>Proactively detected and resolved performance bottlenecks by establishing real-time observability using <span class="highlight">monitoring dashboards (Grafana)</span>, ensuring strict service SLAs</li>
-                                    <li>Implemented role-based access control and exposed secure APIs for dependent services, ensuring system security and stability</li>
-                                    <li>Developed new features including security enhancements, account settings, and badge decorations</li>
+                                    <li>Minimized database bottlenecks and scaled read performance by integrating with a <span class="highlight">multi-instance replicated cache cluster</span></li>
+                                    <li>Proactively detected and resolved performance bottlenecks by establishing real-time observability using <span class="highlight">monitoring dashboards (Grafana)</span></li>
                                 </ul>
                             </li>
                             <li><strong>zBox Payment Gateway:</strong>
                                 <ul>
-                                    <li>Participated in building the zBox payment gateway for the Zalo ecosystem, optimized for low latency and high throughput, processing <span class="highlight">2M+ transactions/day</span></li>
-                                    <li>Standardized cross-platform payment flows by designing a <span class="highlight">unified transaction routing pattern</span> and <span class="highlight">automated reconciliation cron jobs</span> to seamlessly integrate ZaloPay, Napas, and Momo</li>
-                                    <li>Provided backend support and optimized SDK APIs to ensure fast and reliable data access</li>
-                                    <li>Centralized operational control by building an internal admin portal featuring <span class="highlight">Role-Based Access Control (RBAC)</span>, enabling secure transaction monitoring and merchant management</li>
+                                    <li>Participated in building the zBox payment gateway, optimized for high throughput, processing <span class="highlight">2M+ transactions/day</span></li>
+                                    <li>Standardized cross-platform payment flows by designing a <span class="highlight">unified transaction routing pattern</span> and <span class="highlight">automated reconciliation cron jobs</span></li>
                                     <li>Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary while ensuring secure handling of sensitive user data</li>
+                                    <li><span class="highlight">Internal Automation:</span> Leveraged AI to build a custom API testing tool, streamlining the validation of complex payment flows and reducing manual testing efforts by automating repetitive test cases</li>
                                 </ul>
                             </li>
-                            <li><strong>PC/Web Core Features:</strong>
+                            <li><strong>Engineering Productivity &amp; Automation (Internal):</strong>
                                 <ul>
-                                    <li>Optimized <span class="highlight">Zalo core features</span> (group, profile, friend) on PC platform, maintained and improved system performance</li>
+                                    <li>Developed an <span class="highlight">AI-Driven SDLC Orchestrator</span> to automate end-to-end development tasks; integrated with Jira API to autonomously fetch tickets and delegate sub-tasks (requirement generation, coding, and security scanning) to specialized AI agents</li>
+                                    <li>Optimized internal workflows by building leverage tools that accelerated the team's development lifecycle and improved code quality</li>
+                                </ul>
+                            </li>
+                            <li><strong>PC/Web Core Features (Profile, Friend, Group):</strong>
+                                <ul>
+                                    <li>Optimized <span class="highlight">Zalo core features</span> on PC platform, maintained and improved system performance</li>
                                 </ul>
                             </li>
                         </ul>
@@ -1033,16 +1035,21 @@
                     <h3>Languages</h3>
                     <div class="tech-list">
                         <span class="tech-item primary">☕ Java (Primary)</span>
-                        <span class="tech-item">🐍 Python</span>
                     </div>
                 </div>
                 <div class="tech-category">
-                    <h3>Frameworks & Protocols</h3>
+                    <h3>Technologies & Protocols</h3>
                     <div class="tech-list">
                         <span class="tech-item">📨 Message Queue</span>
                         <span class="tech-item">🔗 Thrift</span>
-                        <span class="tech-item">⚡ gRPC</span>
-                        <span class="tech-item">🔐 JWT</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>AI & Automation</h3>
+                    <div class="tech-list">
+                        <span class="tech-item primary">🤖 Generative AI (LLMs)</span>
+                        <span class="tech-item">🧠 AI Orchestration</span>
+                        <span class="tech-item">✍️ Prompt Engineering</span>
                     </div>
                 </div>
                 <div class="tech-category">
@@ -1056,7 +1063,6 @@
                 <div class="tech-category">
                     <h3>Tools & Platform</h3>
                     <div class="tech-list">
-                        <span class="tech-item">🐧 Linux</span>
                         <span class="tech-item">🔀 Git</span>
                         <span class="tech-item">📋 Jira</span>
                         <span class="tech-item">🔄 CI/CD</span>

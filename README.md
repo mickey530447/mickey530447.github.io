@@ -21,9 +21,8 @@ public class MinhNguyen {
     private String location = "Ho Chi Minh City";
     
     private String[] techStacks = {
-        "Java", "Python", "Message Queue", "Thrift",
-        "gRPC", "JWT", "MySQL", "MongoDB",
-        "Redis", "Linux", "Git", "CI/CD"
+        "Java", "Message Queue", "Thrift",
+        "MongoDB", "Redis", "Generative AI (LLMs)"
     };
     
     public String getPhilosophy() {
@@ -34,7 +33,7 @@ public class MinhNguyen {
 
 <div align="center">
 
-### 💼 Currently Working At
+### 💼 Experience At
 
 <img src="https://img.shields.io/badge/Zalo-0068FF?style=for-the-badge&logo=zalando&logoColor=white" alt="Zalo"/>
 
@@ -45,22 +44,22 @@ public class MinhNguyen {
 ## 💼 Work Experience
 
 ### Zalo | Senior Software Engineer
-**2021 - Present**
+**08/2021 - 03/2026**
 
 - ⚡ **Business Account:**
   - Designed a distributed architecture utilizing **Thrift RPC** for synchronous calls and an **in-house Message Queue** for asynchronous event processing, serving **2M+ users** while maintaining **P99 < 50ms** latency and **99.95\% availability**.
-  - Minimized database bottlenecks and scaled read performance horizontally by implementing a **multi-instance replicated cache cluster**.
-  - Proactively detected and resolved performance bottlenecks by establishing real-time observability using **monitoring dashboards (Grafana)**, ensuring strict service SLAs.
-  - Implemented role-based access control and exposed secure APIs for dependent services, ensuring system security and stability.
-  - Developed new features including security enhancements, account settings, and badge decorations.
+  - Minimized database bottlenecks and scaled read performance by integrating with a **multi-instance replicated cache cluster**.
+  - Proactively detected and resolved performance bottlenecks by establishing real-time observability using **monitoring dashboards (Grafana)**.
 - 💳 **zBox Payment Gateway:**
-  - Participated in building the zBox payment gateway for the Zalo ecosystem, optimized for low latency and high throughput, processing **2M+ transactions/day**.
-  - Standardized cross-platform payment flows by designing a **unified transaction routing pattern** and **automated reconciliation cron jobs** to seamlessly integrate ZaloPay, Napas, and Momo.
-  - Provided backend support and optimized SDK APIs to ensure fast and reliable data access.
-  - Centralized operational control by building an internal admin portal featuring **Role-Based Access Control (RBAC)**, enabling secure transaction monitoring and merchant management.
+  - Participated in building the zBox payment gateway, optimized for high throughput, processing **2M+ transactions/day**.
+  - Standardized cross-platform payment flows by designing a **unified transaction routing pattern** and **automated reconciliation cron jobs**.
   - Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary while ensuring secure handling of sensitive user data.
-- 📱 **PC/Web Core Features:**
-  - Optimized Zalo core features (group, profile, friend) on PC platform, maintained and improved system performance.
+  - **Internal Automation:** Leveraged AI to build a custom API testing tool, streamlining the validation of complex payment flows and reducing manual testing efforts by automating repetitive test cases.
+- 🤖 **Engineering Productivity & Automation (Internal):**
+  - Developed an **AI-Driven SDLC Orchestrator** to automate end-to-end development tasks; integrated with Jira API to autonomously fetch tickets and delegate sub-tasks (requirement generation, coding, and security scanning) to specialized AI agents.
+  - Optimized internal workflows by building leverage tools that accelerated the team's development lifecycle and improved code quality.
+- 📱 **PC/Web Core Features (Profile, Friend, Group):**
+  - Optimized Zalo core features on PC platform, maintained and improved system performance.
 
 ### MGM Technology Partners | Intern
 **02/2020 - 06/2020**
@@ -76,14 +75,17 @@ public class MinhNguyen {
 **Languages**
 
 <img src="https://img.shields.io/badge/Java_(Primary)-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 
-**Frameworks & Protocols**
+**Technologies & Protocols**
 
 <img src="https://img.shields.io/badge/Message_Queue-231F20?style=for-the-badge&logoColor=white" alt="Message Queue"/>
 <img src="https://img.shields.io/badge/Thrift-D12127?style=for-the-badge&logoColor=white" alt="Thrift"/>
-<img src="https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge&logo=google&logoColor=white" alt="gRPC"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" alt="JWT"/>
+
+**AI & Automation**
+
+<img src="https://img.shields.io/badge/Generative_AI_(LLMs)-FF6F00?style=for-the-badge&logoColor=white" alt="Generative AI"/>
+<img src="https://img.shields.io/badge/AI_Orchestration-7B1FA2?style=for-the-badge&logoColor=white" alt="AI Orchestration"/>
+<img src="https://img.shields.io/badge/Prompt_Engineering-00C853?style=for-the-badge&logoColor=white" alt="Prompt Engineering"/>
 
 **Databases**
 
@@ -93,7 +95,6 @@ public class MinhNguyen {
 
 **Tools & Platform**
 
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira"/>
 <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD"/>
