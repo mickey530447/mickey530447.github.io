@@ -2,7 +2,7 @@
 
 # 👋 Hello, I'm Nguyen Le Minh
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=600&lines=Senior+Software+Engineer+%40+Zalo;Building+Scalable+Systems;Low+Latency+High+Throughput)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=600&lines=Ex+Senior+Software+Engineer+%40+Zalo;Building+Scalable+Systems;Low+Latency+High+Throughput)](https://git.io/typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=mickey530447&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 
@@ -48,10 +48,13 @@ public class MinhNguyen {
 
 - ⚡ **Business Account:**
   - Designed a distributed architecture utilizing **Thrift RPC** for synchronous calls and an **in-house Message Queue** for asynchronous event processing, serving **2M+ users** while maintaining **P99 < 50ms** latency and **99.95\% availability**.
-  - Minimized database bottlenecks and scaled read performance by integrating with a **multi-instance replicated cache cluster**.
+  - Prevented race conditions in concurrent account creation and upgrade flows by implementing **distributed locking** via an in-house cache-backed mechanism.
+  - Adopted an **event-driven architecture** using an in-house pub/sub system with **multiple event topics** (account package changes, eKYC verification, etc.) to decouple and process business side effects asynchronously.
+  - Optimized read performance through a layered approach: an in-house **replicated cache cluster** to absorb read traffic, and **read/write database separation** to independently scale query throughput from writes.
   - Proactively detected and resolved performance bottlenecks by establishing real-time observability using **monitoring dashboards (Grafana)**.
 - 💳 **zBox Payment Gateway:**
   - Participated in building the zBox payment gateway, optimized for high throughput, processing **2M+ transactions/day**.
+  - Implemented a **Redis-based distributed lock** mechanism to ensure idempotency and prevent duplicate transactions under concurrent requests.
   - Standardized cross-platform payment flows by designing a **unified transaction routing pattern** and **automated reconciliation cron jobs**.
   - Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary while ensuring secure handling of sensitive user data.
   - **Internal Automation:** Leveraged AI to build a custom API testing tool, streamlining the validation of complex payment flows and reducing manual testing efforts by automating repetitive test cases.
