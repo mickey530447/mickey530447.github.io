@@ -988,7 +988,7 @@
                                 <ul>
                                     <li>Participated in building the zBox payment gateway, optimized for high throughput, processing <span class="highlight">2M+ transactions/day</span></li>
                                     <li>Implemented a <span class="highlight">Redis-based distributed lock</span> mechanism to ensure idempotency and prevent duplicate transactions under concurrent requests</li>
-                                    <li>Standardized cross-platform payment flows by designing a <span class="highlight">unified transaction routing pattern</span> and <span class="highlight">automated reconciliation cron jobs</span></li>
+                                    <li>Integrated multiple payment channels (<span class="highlight">ZaloPay, Momo, Napas</span>) by designing a <span class="highlight">unified transaction routing pattern</span> and a <span class="highlight">standalone reconciliation service</span> consuming payment events and running <span class="highlight">scheduled transaction scans</span> to standardize cross-platform payment flows</li>
                                     <li>Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary while ensuring secure handling of sensitive user data</li>
                                     <li><span class="highlight">Internal Automation:</span> Leveraged AI to build a custom API testing tool, streamlining the validation of complex payment flows and reducing manual testing efforts by automating repetitive test cases</li>
                                 </ul>

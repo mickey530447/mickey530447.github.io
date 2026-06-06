@@ -55,7 +55,7 @@ public class MinhNguyen {
 - 💳 **zBox Payment Gateway:**
   - Participated in building the zBox payment gateway, optimized for high throughput, processing **2M+ transactions/day**.
   - Implemented a **Redis-based distributed lock** mechanism to ensure idempotency and prevent duplicate transactions under concurrent requests.
-  - Standardized cross-platform payment flows by designing a **unified transaction routing pattern** and **automated reconciliation cron jobs**.
+  - Integrated multiple payment channels (**ZaloPay, Momo, Napas**) by designing a **unified transaction routing pattern** and a **standalone reconciliation service** consuming payment events and running **scheduled transaction scans** to standardize cross-platform payment flows.
   - Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary while ensuring secure handling of sensitive user data.
   - **Internal Automation:** Leveraged AI to build a custom API testing tool, streamlining the validation of complex payment flows and reducing manual testing efforts by automating repetitive test cases.
 - 🤖 **Engineering Productivity & Automation (Internal):**

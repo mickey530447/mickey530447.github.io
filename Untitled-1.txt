@@ -1,14 +1,16 @@
-\documentclass[9pt]{extarticle}
+\documentclass[8pt]{extarticle}
 \usepackage{graphicx}
 \setlength{\parindent}{0pt}
 \usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage[utf8]{inputenc} 
+\usepackage[utf8]{inputenc}
 \usepackage{lipsum}
 \usepackage[T5]{fontenc}
 \usepackage[vietnamese]{babel}
-\usepackage{lmodern} 
-\usepackage[left=1.06cm,top=1.2cm,right=1.06cm,bottom=0.49cm]{geometry}
+\usepackage{lmodern}
+\usepackage[left=1.06cm,top=0.8cm,right=1.06cm,bottom=0.5cm]{geometry}
+\setlength{\parskip}{0pt}
+\linespread{1.2}
 
 \begin{document}
 \begin{center}
@@ -19,11 +21,11 @@
  Ho Chi Minh City \textbullet \ nguyenleminh530447@gmail.com \textbullet \ (+84) 935 65 9249\\
 \end{center}
 
-\vspace{0.5pt}
+\vspace{-4pt}
 
-\Large \textbf{WORK EXPERIENCE} \\
+\large \textbf{WORK EXPERIENCE} \\
 \noindent\rule{\linewidth}{0.4pt}
-\Large \textbf{Zalo} \hfill 08/2021-03/2026 \\
+\large \textbf{Zalo} \hfill 08/2021-03/2026 \\
 \textit{Senior Software Engineer} \\
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
 
@@ -40,7 +42,7 @@
     \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt]
         \item Participated in building the zBox payment gateway, optimized for high throughput, processing \textbf{2M+ transactions/day}.
         \item Implemented a \textbf{Redis-based distributed lock} mechanism to ensure idempotency and prevent duplicate transactions under concurrent requests.
-        \item Standardized cross-platform payment flows by designing a \textbf{unified transaction routing pattern} and \textbf{automated reconciliation cron jobs}.
+        \item Integrated multiple payment channels (\textbf{ZaloPay, Momo, Napas}) by designing a \textbf{unified transaction routing pattern} and a \textbf{standalone reconciliation service} consuming payment events and running \textbf{scheduled transaction scans} to standardize cross-platform payment flows.
         \item Developed the payment checkout landing page, guiding users through product selection, payment method options, and order summary while ensuring secure handling of sensitive user data.
         \item \textbf{Internal Automation:} Leveraged AI to build a custom API testing tool, streamlining the validation of complex payment flows and reducing manual testing efforts by automating repetitive test cases.
     \end{itemize}
@@ -59,27 +61,27 @@
 \end{itemize}
 
     \textbf{Techstack: Java Core, Message Queue, Thrift, MongoDB, Redis, Generative AI (LLMs)}
-\vspace{12pt}
+\vspace{4pt}
 
 \textbf{mgm Technology Partners} \hfill 02/2020 - 06/2020\\
 \textit{Intern}
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
     \item Used React to maintain and improve internal websites
 \end{itemize}
-\vspace{18pt}
+\vspace{4pt}
 
-\Large \textbf{EDUCATION} \\
+\large \textbf{EDUCATION} \\
 \noindent\rule{\linewidth}{0.4pt}
 \textbf{University of Greenwich} \hfill Da Nang (2018-2021)\\
 Bachelor of Science, Computer Science. GPA [3.5/4] \hfill Second Class Honours (1st Division)
 
-\vspace{12pt}
+\vspace{4pt}
 
 \textbf{High School: Quoc Hoc Hue High School for the Gifted} \hfill Hue \\
 Major: Information Technology (IT)
 
-\vspace{18pt}
-\Large \textbf{SKILLS} \\
+\vspace{4pt}
+\large \textbf{SKILLS} \\
 \noindent\rule{\linewidth}{0.4pt}
 
 \textbf{Programming Languages:} Java\\
