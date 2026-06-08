@@ -47,7 +47,8 @@ public class MinhNguyen {
 **08/2021 - 03/2026**
 
 - ⚡ **Business Account:**
-  - Designed a distributed architecture utilizing **Thrift RPC** for synchronous calls and an **in-house Message Queue** for asynchronous event processing, serving **2M+ users** while maintaining **P99 < 50ms** latency and **99.95\% availability**.
+  - Designed a distributed architecture utilizing **Thrift RPC** for synchronous calls and an **in-house Message Queue** for asynchronous event processing, serving **2M+ users** while maintaining **P99 < 50ms** latency.
+  - Ensured high availability through **multi-DC deployment** with automatic failover, **circuit breaker** pattern, and **multi-layer cache/database replication** to eliminate single points of failure.
   - Prevented race conditions in concurrent account creation and upgrade flows by implementing **distributed locking** via an in-house cache-backed mechanism.
   - Adopted an **event-driven architecture** using an in-house pub/sub system with **multiple event topics** (account package changes, eKYC verification, etc.) to decouple and process business side effects asynchronously.
   - Optimized read performance through a layered approach: an in-house **replicated cache cluster** to absorb read traffic, and **read/write database separation** to independently scale query throughput from writes.

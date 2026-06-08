@@ -10,7 +10,7 @@
 \usepackage{lmodern}
 \usepackage[left=1.06cm,top=0.8cm,right=1.06cm,bottom=0.5cm]{geometry}
 \setlength{\parskip}{0pt}
-\linespread{1.2}
+\linespread{1.15}
 
 \begin{document}
 \begin{center}
@@ -31,7 +31,8 @@
 
     \item \textbf{\textit{Business Account:}}
     \begin{itemize}[noitemsep, topsep=0pt, parsep=0pt]
-        \item Designed a distributed architecture utilizing \textbf{Thrift RPC} for synchronous calls and an \textbf{in-house Message Queue} for asynchronous event processing, serving \textbf{2M+ users} while maintaining \textbf{P99 < 50ms} latency and \textbf{99.95\% availability}.
+        \item Designed a distributed architecture utilizing \textbf{Thrift RPC} for synchronous calls and an \textbf{in-house Message Queue} for asynchronous event processing, serving \textbf{2M+ users} while maintaining \textbf{P99 < 50ms} latency.
+        \item Ensured high availability through \textbf{multi-DC deployment} with automatic failover, \textbf{circuit breaker} pattern, and \textbf{multi-layer cache/database replication} to eliminate single points of failure.
         \item Prevented race conditions in concurrent account creation and upgrade flows by implementing \textbf{distributed locking} via an in-house cache-backed mechanism.
         \item Adopted an \textbf{event-driven architecture} using an in-house pub/sub system with \textbf{multiple event topics} (account package changes, eKYC verification, etc.) to decouple and process business side effects asynchronously.
         \item Optimized read performance through a layered approach: an in-house \textbf{replicated cache cluster} to absorb read traffic, and \textbf{read/write database separation} to independently scale query throughput from writes.
